@@ -121,3 +121,13 @@
 .our-team-list {
   list-style-type: none;
 }
+.team-member-name {
+  color: var(--NAVY-BLUE, #2e2f42);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
