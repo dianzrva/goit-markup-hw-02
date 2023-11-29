@@ -4,58 +4,77 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- HEADER -->
-    <header>
+    <header class="header">
       <nav>
-        <a href="./index.html">WebStudio</a>
+        <a class="header-logo" href="./index.html"
+          ><span class="logo-web">Web</span>Studio</a
+        >
         <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+          <li class="head-nav-list">
+            <a class="head-nav-link" href="">Studio</a>
+          </li>
+          <li class="head-nav-list">
+            <a class="head-nav-link" href="">Portfolio</a>
+          </li>
+          <li class="head-nav-list">
+            <a class="head-nav-link" href="">Contacts</a>
+          </li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+          <li class="head-cont-list">
+            <a class="head-cont-link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li class="head-cont-list">
+            <a class="head-cont-link" href="tel:+110001111111"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
     <!-- MAIN -->
     <main>
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="main-sec-1">
+        <h1 class="main-h1">Effective Solutions for Your Business</h1>
+        <button class="main-sec-button" type="button">
+          <span class="main-sec-button-text">Order Service</span>
+        </button>
       </section>
-      <section>
+      <section class="main-sec-2">
         <h2>Our best traits</h2>
         <ul>
-          <li>
-            <h3>Strategy</h3>
-            <p>
+          <li class="main-traits-list">
+            <h3 class="main-trait">Strategy</h3>
+            <p class="trait-descr">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
-          <li>
-            <h3>Punctuality</h3>
-            <p>
+          <li class="main-traits-list">
+            <h3 class="main-trait">Punctuality</h3>
+            <p class="trait-descr">
               Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
-          <li>
-            <h3>Diligence</h3>
-            <p>
+          <li class="main-traits-list">
+            <h3 class="main-trait">Diligence</h3>
+            <p class="trait-descr">
               Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
-          <li>
-            <h3>Technologies</h3>
-            <p>
+          <li class="main-traits-list">
+            <h3 class="main-trait">Technologies</h3>
+            <p class="trait-descr">
               Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
@@ -64,10 +83,10 @@
       </section>
 
       <!-- OUR TEAM -->
-      <section>
-        <h2>Our Team</h2>
+      <section class="our-team-sec">
+        <h2 class="our-team-h2">Our Team</h2>
         <ul>
-          <li>
+          <li class="our-team-list">
             <img
               src="./images/MarkGuerrero.jpg"
               alt="A man with dark hair"
@@ -77,7 +96,7 @@
             <h3>Mark Guerrero</h3>
             <p>Product Designer</p>
           </li>
-          <li>
+          <li class="our-team-list">
             <img
               src="./images/TomFord.jpg"
               alt="A man with light dark hair"
@@ -87,7 +106,7 @@
             <h3>Tom Ford</h3>
             <p>Frontend Developer</p>
           </li>
-          <li>
+          <li class="our-team-list">
             <img
               src="./images/CamilaGarcia.jpg"
               alt="A woman with long dark hair"
@@ -97,7 +116,7 @@
             <h3>Camila Garcia</h3>
             <p>Marketing</p>
           </li>
-          <li>
+          <li class="our-team-list">
             <img
               src="./images/DanielWilson.jpg"
               alt="A man with dark hair and fringe"
@@ -113,26 +132,62 @@
         <h2>Our Portfolio</h2>
         <ul>
           <li>
+            <img
+              src="./images/bankingapp.jpg"
+              alt="a banking app"
+              width="264"
+              height="260"
+            />
             <h3>Banking App</h3>
             <p>App</p>
           </li>
           <li>
+            <img
+              src="./images/cashlesspayment.jpg"
+              alt="a cashless payment"
+              width="264"
+              height="260"
+            />
             <h3>Cashless Payment</h3>
             <p>Marketing</p>
           </li>
           <li>
+            <img
+              src="./images/meditationapp.jpg"
+              alt="a medatitation app"
+              width="264"
+              height="260"
+            />
             <h3>Meditation App</h3>
             <p>App</p>
           </li>
           <li>
+            <img
+              src="./images/taxiservice.jpg"
+              alt="a taxi service"
+              width="264"
+              height="260"
+            />
             <h3>Taxi Service</h3>
             <p>Marketing</p>
           </li>
           <li>
+            <img
+              src="./images/screenillustrations.jpg"
+              alt="screen illustrations"
+              width="264"
+              height="260"
+            />
             <h3>Screen Illustrations</h3>
             <p>Design</p>
           </li>
           <li>
+            <img
+              src="./images/onlinecourses.jpg"
+              alt="online courses"
+              width="264"
+              height="260"
+            />
             <h3>Online Courses</h3>
             <p>Marketing</p>
           </li>
