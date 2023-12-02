@@ -40,7 +40,7 @@ a {
 }
 
 /* Contacts */
-.adress {
+.address {
   font-style: normal;
 }
 .contacts-link {
@@ -68,7 +68,6 @@ a {
   letter-spacing: 1.12px;
 }
 .main-sec-button {
-  border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
 }
 .main-sec-button-text {
