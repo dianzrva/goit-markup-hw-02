@@ -54,6 +54,7 @@ a {
   color: #404bbf;
 }
 /* Main */
+/* Section 1 */
 .section-one {
   background: var(--NAVY-BLUE, #2e2f42);
 }
@@ -78,27 +79,19 @@ a {
 :focus {
   background-color: #404bbf;
 }
-.main-sec-2 {
-  background: #fff;
-}
-
-.main-trait {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
+/* Section 2 */
+.trait-name {
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4px;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.trait-descr {
-  color: var(--SLATE, #434455);
-  font-family: Roboto;
+.trait-description {
   font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /* Our team */
 .our-team-sec {
