@@ -38,16 +38,20 @@ a {
 :focus {
   color: #404bbf;
 }
-/* Contacts */
 
-.head-cont-link {
-  color: var(--SLATE, #434455);
-  font-family: Roboto;
-  font-size: 16px;
+/* Contacts */
+.adress {
   font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+}
+.contacts-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts-link:hover,
+:focus {
+  color: #404bbf;
 }
 /* Main */
 .main-sec-1 {
