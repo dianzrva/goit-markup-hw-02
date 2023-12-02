@@ -1,46 +1,45 @@
-/* Header */
-.header {
-  background: var(--WHITE, #fff);
+/* Body */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
-/* Navigation */
-.logo-web {
-  color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-}
-.header-logo {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-.head-nav-list {
+ul {
   list-style-type: none;
 }
-.head-nav-link {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Roboto;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.32px;
+a {
   text-decoration: none;
+}
+
+/* Header */
+/* Logo */
+.web-studio-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1, 17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.studio-logo {
+  color: #2e2f42;
+}
+
+.head-nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.head-nav-link:hover,
+:focus {
+  color: #404bbf;
 }
 /* Contacts */
-.head-cont-list {
-  list-style-type: none;
-}
+
 .head-cont-link {
   color: var(--SLATE, #434455);
   font-family: Roboto;
@@ -49,7 +48,6 @@
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
-  text-decoration: none;
 }
 /* Main */
 .main-sec-1 {
@@ -68,7 +66,6 @@
 .main-sec-button {
   border-radius: 4px;
   background: var(--IRIS, #4d5ae5);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .main-sec-button-text {
   color: var(--WHITE, #fff);
@@ -82,9 +79,7 @@
 .main-sec-2 {
   background: #fff;
 }
-.main-traits-list {
-  list-style-type: none;
-}
+
 .main-trait {
   color: var(--NAVY-BLUE, #2e2f42);
   font-family: Roboto;
@@ -117,9 +112,6 @@
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
-}
-.our-team-list {
-  list-style-type: none;
 }
 .team-member-name {
   color: var(--NAVY-BLUE, #2e2f42);
